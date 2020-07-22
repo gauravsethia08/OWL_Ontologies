@@ -1,0 +1,803 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isAunt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isAunt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isBrother -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isBrother">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isDaughter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isDaughter">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isFather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isFather">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isGranddaughter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isGranddaughter">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isGrandfather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isGrandfather">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isGrandmother -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isGrandmother">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isGrandson -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isGrandson">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isHusband -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isHusband">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isWife"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isMother -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isMother">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isNephew -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isNephew">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isSister -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isSister">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isSon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isSon">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isUncle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isUncle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isWife -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isWife">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#hasAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#hasAddress">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#hasAge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#hasAge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#hasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aunt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aunt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Daughter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Daughter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Father -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Father">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Mother -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Mother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Son -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Son">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Uncle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Uncle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandFather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandFather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandMother -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandMother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aafra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aafra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Daughter"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aaisha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aaisha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Daughter"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Abdul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Abdul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandFather"/>
+        <isFather rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Abdulah"/>
+        <isGrandfather rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Khalid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Abdulah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Abdulah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Father"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <isFather rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Khalid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Adeela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Adeela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Daughter"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Ahmed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Ahmed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Father"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Uncle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Amir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Amir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Father"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Asif -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Asif">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Son"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aunt"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <isSister rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Abdulah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Bassem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Bassem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Uncle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Eman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Eman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandMother"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Hossam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Hossam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Uncle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Ismal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Ismal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandFather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Khalid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Khalid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Son"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Manal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Manal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandMother"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Marwa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Marwa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Mother"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Meena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Meena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Mother"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Moha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Moha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandMother"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Mohamed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Mohamed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#grandFather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Nour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Nour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aunt"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Omar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Omar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Son"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Sara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Sara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Mother"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Soha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Soha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Aunt"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#Woman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#okay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#okay"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#A">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#S">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#F">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#G">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rule3_#_I_am_newphew_of_my_aunt</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isAunt"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#A"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#S"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isNephew"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#S"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#A"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rule_1_#_My_grandFather_is_Father_of_My_Father</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isFather"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#F"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#S"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isFather"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#G"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#F"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isGrandfather"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#G"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#S"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rule2_#_My_Aunt_is_my_father&apos;s_sister</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isFather"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#F"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#S"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isSister"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#A"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#F"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isAunt"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#A"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#S"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rule4_#_I_son_of_my_Father</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isFather"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#F"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#S"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#isSon"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#S"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-7#F"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
