@@ -1,4 +1,4 @@
-# OWL_Ontologies
+# OWL Ontology Examples
 
 ## Robot Task Example Ontology
 A simple example where robot has to identify who has the object based on the information about the location
