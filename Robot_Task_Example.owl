@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:info="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#bookInRoom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#bookInRoom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#hasBook -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#hasBook">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#isInRoom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#isInRoom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#person_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#person_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room_number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#actor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#actor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#person"/>
+        <isInRoom rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room_1"/>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jack</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#book"/>
+        <bookInRoom rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room_1"/>
+        <book_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">harry_potter</book_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room"/>
+        <hasBook rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#room_1"/>
+        <room_number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</room_number>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="B">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="R">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="P">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rule1_//_Person_and_book_in_same_room_person_has_book</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#bookInRoom"/>
+                        <swrl:argument1 rdf:resource="B"/>
+                        <swrl:argument2 rdf:resource="R"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#isInRoom"/>
+                                <swrl:argument1 rdf:resource="P"/>
+                                <swrl:argument2 rdf:resource="R"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/6/untitled-ontology-10#hasBook"/>
+                        <swrl:argument1 rdf:resource="P"/>
+                        <swrl:argument2 rdf:resource="B"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
